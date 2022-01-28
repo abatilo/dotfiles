@@ -4,7 +4,7 @@ cd ${HOME}
 
 rm -rf .oh-my-bash
 rm -rf .oh-my-zsh
-rm .zshrc
+rm -rf .zshrc
 
 cat <<EOF > ${HOME}/.gitconfig
 [user]
