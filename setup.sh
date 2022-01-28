@@ -13,6 +13,3 @@ cat <<EOF > ${HOME}/.gitconfig
 [alias]
   st = status
 EOF
-
-# Install fzf
-curl -L https://github.com/junegunn/fzf/releases/download/0.27.2/fzf-0.27.2-linux_amd64.tar.gz | tar xzC $HOME/bin
